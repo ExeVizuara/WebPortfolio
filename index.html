@@ -1,225 +1,163 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exequiel Vizuara</title>
-
-    <!-- -MAXICONS- -->
+    <!------------------------------ ESTILOS ------------------------------>
     <link rel="stylesheet" href="css/estilos.css">
+    <!------------------------------ ICONOS ------------------------------->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
 </head>
-
+    
 <body>
-    <!-- -HEADER- -->
+    <!------------------------------ HEADER ------------------------------->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="index.html" class="nav__logo">
-                <span class="nav__logo-circle">V</span>
+                <span class="nav__logo-nombre">Vi.Tec</span>
             </a>
-            <span class="nav__logo-name">Vi.Tec</span>
-            <!-- -BOTON MENU- -->
+            <!------------------------------ MENU ------------------------------->
             <div class="nav__menu" id="nav-menu">
-                <span class="nav__title">Menu</span>
-                <h3 class="nav__name">Vi.Tec</h3>
+                <!-- <span class="nav__titulo">Menu</span> -->
+                <!-- <h3 class="nav__nombre">Vi.Tec</h3> -->
 
-                <ul class="nav__list">
+                <ul class="nav__lista">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">Home</a>
+                        <a href="#home" class="nav__link link-activo">Home</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">About Me</a>
+                        <a href="#info" class="nav__link">Información</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#projects" class="nav__link">Projects</a>
+                        <a href="#servicios" class="nav__link">Servicios</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#services" class="nav__link">Services</a>
+                        <a href="#proyectos" class="nav__link">Proyectos</a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link nav__link-button">Contact</a>
+                        <a href="#contacto" class="nav__link nav__link-boton">Contacto</a>
                     </li>
                 </ul>
-                <!-- -BOTON CLOSE- -->
-                <div class="nav__close" id="nav-close">
+                <!--------------------------- BOTON CERRAR ---------------------------->
+                <div class="nav__cerrar" id="nav-cerrar">
                     <i class="ri-close-line"></i>
                 </div>
             </div>
-
             <div class="nav__buttons">
-                <!-- -TEMA BOTON- -->
+                <!----------------------BOTON MODO ESCURO ---------------------------->
                 <i class="ri-moon-line change-theme" id="theme-button"></i>
 
-                <!-- -BOTON TOGGLE- -->
+                <!--------------------------- BOTON MENU ---------------------------->
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="ri-menu-4-line"></i>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- -MAIN- -->
+    <!------------------------------ MAIN ------------------------------->
     <main class="main">
-        <!-- -HOME- -->
+        <!--------------------------- SECCION HOME ---------------------------->
         <section class="home section" id="home">
             <div class="home__container container grid">
-                <h1 class="home__name">
+                <h1 class="home__nombre">
                     Exequiel Vizuara
                 </h1>
                 <div class="home__perfil">
-                    <div class="home__image">
+                    <div class="home__imagen">
                         <img src="img/foto_home.png" alt="image" class="home__img">
                         <div class="home__shadow"></div>
 
-                        <img src="img/curved-arrow.svg" alt="" class="home__arrow">
-                        <img src="img/random-lines.svg" alt="" class="home__line">
+                        <img src="img/dev_icon.png" alt="" class="home__arrow">
+                        <img src="img/develop_icon.png" alt="" class="home__arroww">
+                        <img src="img/java_icon.png" alt="" class="home__line">
 
                         <div class="geometric-box"></div>
                     </div>
                     <div class="home__social">
                         <a href="https://www.facebook.com/Walinzeee" target="_blank" class="home__social-link">
-                            <i class="ri-facebook-line"></i>
+                            <i class="ri-facebook-box-fill"></i>
                         </a>
                         <a href="https://www.linkedin.com/in/exequiel-vizuara-849ab422b/" target="_blank"
                             class="home__social-link">
-                            <i class="ri-linkedin-box-line"></i>
+                            <i class="ri-linkedin-box-fill"></i>
                         </a>
                         <a href="https://github.com/ExeVizuara" target="_blank" class="home__social-link">
-                            <i class="ri-github-line"></i>
+                            <i class="ri-github-fill"></i>
                         </a>
                         <a href="https://discord.gg/yveahs3D" target="_blank" class="home__social-link">
-                            <i class="ri-discord-line"></i>
+                            <i class="ri-discord-fill"></i>
                         </a>
                     </div>
                 </div>
                 <div class="home__info">
-                    <p class="home__description">
-                        <b>Software Developer</b>, con experiencia en desarrollo de apliaciones web, tanto en Frontend ,
-                        como en Backend.
+                    <p class="home__descripcion">
+                        <b>Desarrollador FullStack Developer</b><br>
+                        . Web Development<br>
+                        . Frontend Web<br>
+                        . Programming Backend
                     </p>
                     <a href="#about" class="home__scroll">
                         <div class="home__scroll-box">
                             <i class="ri-arrow-down-s-line"></i>
                         </div>
-                        <span class="home__scroll-text">Bajar</span>
                     </a>
                 </div>
             </div>
 
         </section>
-        <!-- -ABOUT- -->
-        <section class="about section" id="about">
+        <!-------------------------- SECCION INFORMACION ------------------------->
+        <section class="about section" id="info">
             <div class="about__container container grid">
-                <h2 class="section__title-1">
-                    <span>About Me.</span>
+                <h2 class="seccion__titulo-1">
+                    <span>INFORMACION</span>
                 </h2>
+                <div class="about__shadow">
+                        <div class="about__perfil">
+                            <div class="about__image">
+                                <div class="geometric-box"></div>
+                                <img src="img/domain_icon.png" alt="" class="about__icon">
+                                <div class="about__box"></div>
+                            </div>
+                        </div>
+                    <div class="about__info">
+                        <b>Inicios</b>
+                        <p class="about__description">
+                            Desde que tengo uso de razón, la tecnología ha sido mi gran pasión. Comencé explorando el mundo de la 
+                            informática y rápidamente me sumergí en él hasta convertirme en Técnico en Reparación de PC y Redes. 
+                            Sin embargo, decidí dar un paso más y adentrarme de lleno en la programación informática y el vasto universo 
+                            de la tecnología de la información. <br> Mi sed de conocimiento me impulsa constantemente a aprender nuevas 
+                            tecnologías y a enfrentar desafíos en nuevos proyectos. Cada día, busco ampliar mis habilidades y experiencia
+                             en este emocionante campo.
+                        </p>
+                        
+                        <ul class="about__list">
+                            <li class="about__item">
+                                <b>Mis Skills Son:</b> HTML, CSS, JavaScript,
+                                Java, Git & GitHub, Bootstrap, SQL.
+                            </li>
+                        </ul>
 
-                <div class="about__perfil">
-                    <div class="about__image">
-                        <img src="img/foto_home.png" alt="image" class="about__img">
-                        <div class="about__shadow"></div>
-                        <div class="geometric-box"></div>
-                        <img src="img/random-lines.svg" alt="" class="about__line">
-                        <div class="about__box"></div>
-                    </div>
-                </div>
-                <div class="about__info">
-                    <p class="about__description">
-                        <b>Software Developer</b> Soy una persona apasionada por la técnologia desde que tengo uso de
-                        razón. Mis primeros pasos fueron en todo lo relacionado
-                        a la informática hasta convertirme en un Técnico en Reparación de PC y Redes. Mas allá de mi
-                        profesión decidí dar un nuevo paso e introducirme de lleno en la programación informática y el
-                        mundo IT. Constantemente me encuentro aprendiendo nuevas
-                        tecnologías en el área, sumando conocimientos y experiencia con nuevos proyectos y desafíos.
-                    </p>
-
-                    <ul class="about__list">
-                        <li class="about__item">
-                            <b>Mis Skills Son:</b> HTML, CSS, JavaScript,
-                            Java, Git & GitHub, Bootstrap, SQL, Springboot.
-                        </li>
-                    </ul>
-
-                    <div class="about__buttons">
-                        <a href="#contact" class="button">
-                            <i class="ri-send-plane-line"></i> Contact Me
-                        </a>
+                        <div class="about__buttons">
+                            <a href="pdf/Exequiel_Vizuara_CV.pdf" target="_blank" class="button">
+                                <i class="ri-send-plane-line"></i> Curriculum Vitae
+                            </a>
+                        </div>
+                        <img src="img/css_icon.png" alt="" class="icon_css">
+                        <img src="img/java_icon_2.png" alt="" class="icon_java">
+                        <img src="img/html_icon.png" alt="" class="icon_html">
+                        <img src="img/js_icon.png" alt="" class="icon_js">
+                        <img src="img/github_icon.png" alt="" class="icon_github">
+                        <img src="img/git_icon.png" alt="" class="icon_git">
                     </div>
                 </div>
             </div>
         </section>
-        <!-- -SERVICES- -->
-        <section class="services section" id="services">
-
-            <h2 class="section__title-2">
-                <span>Services.</span>
+        <!-------------------------- SECCION PROYECTOS ------------------------->
+        <section class="projects section" id="proyectos">
+            <h2 class="seccion__titulo-1">
+                <span>PROYECTOS</span>
             </h2>
-            <div class="services__container container grid">
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-layout-4-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Web Design</h2>
-
-                        <p class="services__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolores excepturi
-                            repellendus adipisci nulla eaque tempore aliquam? Fugit, error. Autem cum voluptas aperiam
-                            expedita, quisquam numquam error consectetur minima ducimus?
-                        </p>
-
-                    </div>
-                </article>
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-code-box-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Web Design</h2>
-
-                        <p class="services__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolores excepturi
-                            repellendus adipisci nulla eaque tempore aliquam? Fugit, error. Autem cum voluptas aperiam
-                            expedita, quisquam numquam error consectetur minima ducimus?
-                        </p>
-
-                    </div>
-                </article>
-                <article class="services__card">
-                    <div class="services__border"></div>
-
-                    <div class="services__content">
-                        <div class="services__icon">
-                            <div class="services__box"></div>
-                            <i class="ri-smartphone-line"></i>
-                        </div>
-
-                        <h2 class="services__title">Web Design</h2>
-
-                        <p class="services__description">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum dolores excepturi
-                            repellendus adipisci nulla eaque tempore aliquam? Fugit, error. Autem cum voluptas aperiam
-                            expedita, quisquam numquam error consectetur minima ducimus?
-                        </p>
-
-                    </div>
-                </article>
-            </div>
-        </section>
-        <!-- -PROJECTS- -->
-        <section class="projects section" id="projects">
-            <h2 class="section__title-1">
-                <span>Projects.</span>
-            </h2>
-
             <div class="projects__container container grid">
                 <article class="projects__card">
                     <div class="projects__image">
@@ -233,9 +171,11 @@
                         <h2 class="projects__title">Recibo Digital</h2>
                 
                         <p class="projects__description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, ipsum atque corporis earum
-                            harum recusandae nihil nesciunt adipisci doloribus explicabo, laborum eum aspernatur
-                            cupiditate corrupti fuga tempora beatae, a dolorem.
+                            Aplicación Web creada con Java 8, vistas JSP y un servlet Tomcat.<br>
+                            El diseño de las vistas se ha realizado utilizando HTML, CSS3 y Javascript.<br>
+                            Base de datos gestionada con Mysql. <br>
+                            La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de empleados, 
+                            así como la visualización y descarga de recibos de sueldo en formato digital.
                         </p>
                     </div>
                     <div class="projects__buttons">
@@ -256,13 +196,15 @@
                     </div>
                 
                     <div class="projects__content">
-                        <h3 class="projects__subtitle">Web</h3>
+                        <h3 class="projects__subtitle">Web Application</h3>
                         <h2 class="projects__title">Conferencia oradores</h2>
                 
                         <p class="projects__description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, ipsum atque corporis earum
-                            harum recusandae nihil nesciunt adipisci doloribus explicabo, laborum eum aspernatur
-                            cupiditate corrupti fuga tempora beatae, a dolorem.
+                            Aplicación Web creada con Java 17, vistas JSP y un servlet Tomcat.<br>
+                            El diseño de las vistas se ha realizado utilizando HTML, CSS3, Bootstrap y Javascript.<br>
+                            Base de datos gestionada con Mysql. <br>
+                            La aplicación permite básicamente el registro de oradores, la gestión de conferencias, 
+                            ver lista de oradores y la reserva de tickets, etc.
                         </p>
                     </div>
                     <div class="projects__buttons">
@@ -287,9 +229,11 @@
                         <h2 class="projects__title">Punto de Venta</h2>
                 
                         <p class="projects__description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, ipsum atque corporis earum
-                            harum recusandae nihil nesciunt adipisci doloribus explicabo, laborum eum aspernatur
-                            cupiditate corrupti fuga tempora beatae, a dolorem.
+                            Aplicación Web creada con Java 17, vistas JSP y un servlet Tomcat.<br>
+                            El diseño de las vistas se ha realizado utilizando HTML, CSS3 y Javascript.<br>
+                            Base de datos gestionada con Mysql. <br>
+                            La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de empleados,
+                            login, registro, ventas, facturas, inventario, precios, entre otras.
                         </p>
                     </div>
                     <div class="projects__buttons">
@@ -304,119 +248,8 @@
             </div>
         </section>
     </main>
-    <!-- -CONTACTO- -->
-    <section class="contact section" id="contact">
-        <div class="contact__container grid">
-            <div class="contact__data">
-                <h2 class="section__title-2">
-                    <span>Contact Me.</span>
-                </h2>
-
-                <p class="contact__description-1">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis quibusdam enim illum!
-                </p>
-                <p class="contact__description-2">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="geometric-box"></div>
-            </div>
-            <div class="contact__mail">
-                <h2 class="contact__title">
-                    Envíame un mensaje
-                </h2>
-
-                <form action="" class="contact__form" id="contact-form">
-                    <div class="contact__group">
-                        <div class="contact__box">
-                            <input type="text" name="user_name" class="contact__input" id="name" required
-                                placeholder="Nombre">
-                            <label for="name" class="contact__label">Nombre</label>
-                        </div>
-                        <div class="contact__box">
-                            <input type="email" name="user_email" class="contact__input" id="email" required
-                                placeholder="Email">
-                            <label for="email" class="contact__label">Correo electrónico</label>
-                        </div>
-                    </div>
-                    <div class="contact__box">
-                        <input type="text" name="user_subject" class="contact__input" id="subject" required
-                            placeholder="Referencia">
-                        <label for="subject" class="contact__label">Subject</label>
-                    </div>
-                    <div class="contact__box contact__area">
-                        <textarea name="user_message" id="message" class="contact__input" required
-                            placeholder="Mensaje"></textarea>
-                        <label for="message" class="contact__label">Mensaje</label>
-                    </div>
-
-                    <p class="contact__message" id="contact-message">Mensaje enviado correctamente!</p>
-
-                    <button type="submit" class="contact__button button">
-                        <i class="ri-send-plane-line">Enviar mensaje</i>
-                    </button>
-                </form>
-            </div>
-            <div class="contact__social">
-                <img src="img/curved-arrow.svg" alt="" class="contact__social-arrow">
-                <div class="contact__social-data">
-                    <div>
-                        <p class="contact__social-description-1">
-                            Does not send emails
-                        </p>
-                        <p class="contact__social-description-2">
-                            Write me on my social networks
-                        </p>
-                    </div>
-
-                    <div class="contact__social-links">
-                        <a href="https://www.facebook.com/Walinzeee" class="contact__social-link">
-                            <i class="ri-facebook-circle-line"></i>
-                        </a>
-                        <a href="https://twitter.com/ExeVizuara" class="contact__social-link">
-                            <i class="ri-twitter-x-line"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/exequiel-vizuara-849ab422b/" class="contact__social-link">
-                            <i class="ri-linkedin-box-line"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- -FOOTER- -->
-    <footer class="footer">
-        <div class="footer__container container grid">
-            <ul class="footer__links">
-                <li>
-                    <a href="#about" class="footer__link">About </a>
-                </li>
-                <li>
-                    <a href="#services" class="footer__link">Services</a>
-                </li>
-                <li>
-                    <a href="#projects" class="footer__link">Projects</a>
-                </li>
-            </ul>
-
-            <span class="footer__copy">
-                &$309; Todos los derechos reservados
-                <a href="">Vi.Tec.</a>
-            </span>
-        </div>
-    </footer>
-
-    <!-- -SCROLL ARRIBA- -->
-    <a href="#home" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
-    </a>
-
-    <!-- -SCRIPTS- -->
     <script src="js/scrollreveal.min.js"></script>
     <script src="js/scripts.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </body>
-
 </html>

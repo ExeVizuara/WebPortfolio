@@ -1,7 +1,7 @@
 // -MOSTRAR MENU-
 const navMenu = document.getElementById('nav-menu'),
-        navToggle = document.getElementById('nav-toggle'),
-        navClose = document.getElementById('nav-cerrar')
+                navToggle = document.getElementById('nav-toggle'),
+                navClose = document.getElementById('nav-cerrar')
 
 // -VALIDACION-
 
@@ -29,31 +29,38 @@ const linkAction = () =>{
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 // -MOSTRAR HEADER-
-const shadowHeader = () =>{
-    const header = document.getElementById('header')
-    this.scrollY >= 50 ? header.classList.add('shadow-header')
-                        : header.classList.remove('shadow-header')
-}
-window.addEventListener('scroll', shadowHeader)
+// const shadowHeader = () =>{
+//     const header = document.getElementById('header')
+//     this.scrollY >= 50 ? header.classList.add('shadow-header')
+//                         : header.classList.remove('shadow-header')
+// }
+// window.addEventListener('scroll', shadowHeader)
 
 // -SCRIPTS EMAIL-
 const contactForm = document.getElementById('contact-form'),
-        contactMessage = document.getElementById('contact-message')
+        contactMessage = document.getElementById('contact-message'),
+        contactEnviado = document.getElementById('mensaje-enviado')
+
 
 const sendEmail = (e) =>{
     e.preventDefault()
-
-    emailjs.sendForm('service_cinaqei', 'template_0cvanic', '#contact-form', 'p6qJBOtNTBUkLtu-F')
+    emailjs.sendForm(
+        'service_cinaqei',
+        'template_0cvanic', 
+        '#contact-form', 
+        'p6qJBOtNTBUkLtu-F'
+    )
     .then(() =>{
-        contactMessage.textContent = 'Mensaje enviado correctamente'
-
+        contactMessage.textContent = ' Mensaje enviado correctamente'
+        contactEnviado.style.display = 'block'
         setTimeout(() =>{
             contactMessage.textContent = ''
+            contactEnviado.style.display = 'none'
         }, 5000)
 
         contactForm.reset()
     }, () =>{
-        contactMessage.textContent = 'ERROR: Mensaje no enviado'
+        contactMessage.textContent = ' ERROR: Mensaje no enviado'
     })
 }
 

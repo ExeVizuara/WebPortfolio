@@ -1030,6 +1030,8 @@ body.dark-theme{
     }
     .about__icon{
         width: 100%;
+        left: 0rem;
+        top: 5rem;
     }
     .about__buttons{
         justify-content: center;

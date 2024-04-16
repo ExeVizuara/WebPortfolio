@@ -175,7 +175,7 @@ img{
 }
 
 .nav .nav__logo-nombre{
-    font-size: var(--fuente-h1);
+    width: 120px;
 }
 
 .nav__toggle{
@@ -880,11 +880,9 @@ body.dark-theme{
     --color-body: hsl(0, 0%, 8%);
     --color-contenedor: hsl(0, 0%, 12%);
 }
-.dark-theme .nav__logo-nombre{
-    color: var(--color-texto);
-}
 .dark-theme .nav__logo{
     border: 1px solid var(--color-texto);
+    color: var(--color-texto);
 }
 .dark-theme :is(.nav__link, #theme-button, #toggle, #cerrar, .contact__label){
     color: var(--color-texto);
@@ -945,7 +943,7 @@ body.dark-theme{
         min-width: 365px;
     }
     .section{
-        margin-inline: 2rem;
+        margin-inline: 0rem;
     }
     .container{
         margin-inline: .2rem;

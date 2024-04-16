@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,13 @@
     <link rel="icon" type="image" href="public/logo_vitec.png" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
 </head>
-    
+
 <body>
     <!------------------------------ HEADER ------------------------------->
     <header class="header" id="header">
         <nav class="nav container">
             <a href="index.html" class="nav__logo">
-                <span class="nav__logo-nombre">Vi.Tec</span>
+                <span class="nav__logo-nombre"><img src="public/logo_vitec.png" alt="logo_vitec"></span>
             </a>
             <!------------------------------ MENU ------------------------------->
             <div class="nav__menu" id="nav-menu">
@@ -76,8 +77,7 @@
                         <a href="https://www.facebook.com/Walinzeee" target="_blank" class="home__social-link">
                             <i class="ri-facebook-box-fill"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/exevizuara/" target="_blank"
-                            class="home__social-link">
+                        <a href="https://www.linkedin.com/in/exevizuara/" target="_blank" class="home__social-link">
                             <i class="ri-linkedin-box-fill"></i>
                         </a>
                         <a href="https://github.com/ExeVizuara" target="_blank" class="home__social-link">
@@ -109,38 +109,46 @@
                 <h2 class="seccion__titulo-1">
                     <span>INFORMACION</span>
                 </h2>
-                    <div class="about__info">
-                        <div class="about__shadow"></div>
-                        <div class="about__box"></div>
-                        <div class="about__icon"><img src="public/img/domain_icon.png" alt=""></div>
-                        <p class="about__description">
-                            <b>Inicios</b><br><br>
-                            Desde que tengo uso de razón, la tecnología ha sido mi gran pasión. Comencé explorando el mundo de la 
-                            digital y rápidamente me sumergí en él hasta convertirme en Técnico Informático. <br>
-                            Sin embargo, decidí dar un paso más y adentrarme de lleno en la programación y desarrollo de software y en el vasto universo 
-                            de la tecnología de la información. <br> Mi sed de conocimiento me impulsa constantemente a aprender nuevas 
-                            tecnologías y a enfrentar nuevos desafíos en diferentes proyectos. Cada día, busco ampliar mis habilidades y experiencia
-                            en este emocionante campo. <br><br>
+                <div class="about__info">
+                    <div class="about__shadow"></div>
+                    <div class="about__box"></div>
+                    <div class="about__icon"><img src="public/img/domain_icon.png" alt=""></div>
+                    <p class="about__description">
+                        <b>Inicios</b><br><br>
+                        desde 2022 comencé oficialmente mi camino en el mundo de la programación y desarrollo IT. Desde
+                        entonces, estoy constantemente realizado bootcamps y estudios autodidactas complementarios para
+                        poder incursionar profesionalmente en esta área. Realizo proyectos desarrollando aplicaciones
+                        web y Apis buscando soluciones para usuarios de distintos rubros y usos "típicos", con
+                        tecnologías como Node.js, React.js, Tailwindcss, Javascript para la interfaz del usuario, y del
+                        lado del Backend, Node.js, Express, Javasctipt, Vite como empaquetador y Mysql como gestor de
+                        base de datos.
+                        Para el despliegue suelo utilizar Netlify para el Frontend, y Railway para el Backend para
+                        pruebas o desarrollo. En otros entornos mas estructurados utilizo AWS para alojar toda la
+                        arquitectura de las aplicaciones, en servicios como S3, EC2, bases de datos RDS, o en ocasiones
+                        Elastic Beanstalk.
+                        Me considero una persona muy capaz, responsable, y con habilidades sólidas adquiridas en mis
+                        experiencias de trabajos las cuales fueron todas en equipo. Adaptabilidad, Compañerismo,
+                        Soluciones en equipo, anticiparse a posibles fallas, etc. <br><br>
 
-                            <span>Mis Skills:</span> HTML5, CSS3, JavaScript,
-                            Java, Git & GitHub, SQL.
-                        </p>
-                        <br><br>
-                        
-                        <div class="about__iconos">
-                            <img src="public/img/css_icon.png" alt="" class="icon_css">
-                            <img src="public/img/java_icon_2.png" alt="" class="icon_java">
-                            <img src="public/img/html_icon.png" alt="" class="icon_html">
-                            <img src="public/img/js_icon.png" alt="" class="icon_js">
-                            <img src="public/img/github_icon.png" alt="" class="icon_github">
-                            <img src="public/img/git_icon.png" alt="" class="icon_git">
-                        </div>        
-                        <div class="about__buttons">
-                            <a href="public/pdf/CV-Exequiel-Vizuara.pdf" target="_blank" class="button">
-                                <i class="ri-send-plane-line"></i> Descargar CV
-                            </a>
-                        </div>
+                        <span>Mis Skills:</span> ReactJS, NodeJS, JavaScript,
+                        Tailwindcss, Git & GitHub, MySQL.
+                    </p>
+                    <br><br>
+
+                    <div class="about__iconos">
+                        <img src="public/img/reactjs-fill (1).png" alt="" class="icon_css">
+                        <img src="public/img/nodejs-fill (1).png" alt="" class="icon_java">
+                        <img src="public/img/tailwind-css-fill (1).png" alt="" class="icon_html">
+                        <img src="public/img/js_icon.png" alt="" class="icon_js">
+                        <img src="public/img/github_icon.png" alt="" class="icon_github">
+                        <img src="public/img/git_icon.png" alt="" class="icon_git">
                     </div>
+                    <div class="about__buttons">
+                        <a href="public/pdf/CV-Exequiel-Vizuara.pdf" target="_blank" class="button">
+                            <i class="ri-send-plane-line"></i> Descargar CV
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
         <!-------------------------- SECCION PROYECTOS ------------------------->
@@ -151,116 +159,118 @@
             <div class="projects__container container grid">
                 <article class="projects__card">
                     <div class="projects__image">
-                        <img src="public/img/proyecto_recibos.jpg" alt="image" class="projects__img">
-                        <a href="" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web Application</h3>
-                        <h2 class="projects__title">Recibo Digital</h2>
-                
-                        <p class="projects__description">
-                            Aplicación Web creada con Java 8, vistas JSP y un servlet Tomcat.<br>
-                            El diseño de las vistas se ha realizado utilizando HTML, CSS3 y Javascript.<br>
-                            Base de datos gestionada con Mysql. <br>
-                            La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de empleados, 
-                            así como la visualización y descarga de recibos de sueldo en formato digital.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                        <a href="" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i>
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
-                        <img src="public/img/proyecto_oradores.jpg" alt="image" class="projects__img">
-                        <a href="" class="projects__button button">
-                            <i class="ri-arrow-right-up-line"></i>
-                        </a>
-                    </div>
-                
-                    <div class="projects__content">
-                        <h3 class="projects__subtitle">Web Application</h3>
-                        <h2 class="projects__title">Conferencia oradores</h2>
-                
-                        <p class="projects__description">
-                            Aplicación Web creada con Java 17, vistas JSP y un servlet Tomcat.<br>
-                            El diseño de las vistas se ha realizado utilizando HTML, CSS3, Bootstrap y Javascript.<br>
-                            Base de datos gestionada con Mysql. <br>
-                            La aplicación permite básicamente el registro de oradores, la gestión de conferencias, 
-                            ver lista de oradores y la reserva de tickets, etc.
-                        </p>
-                    </div>
-                    <div class="projects__buttons">
-                        <a href="" target="_blank" class="projects__link">
-                            <i class="ri-github-line"></i>
-                        </a>
-                        <a href="" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i>
-                        </a>
-                    </div>
-                </article>
-                <article class="projects__card">
-                    <div class="projects__image">
                         <img src="public/img/proyecto_ventas.jpg" alt="image" class="projects__img">
-                        <a href="" class="projects__button button">
+                        <a href="https://main--stack-store-prod.netlify.app/" class="projects__button button" target="_blank">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
-                
+
                     <div class="projects__content">
                         <h3 class="projects__subtitle">Web Application</h3>
-                        <h2 class="projects__title">Punto de Venta</h2>
-                
+                        <h2 class="projects__title">Stack Store (en desarrollo)</h2>
+
                         <p class="projects__description">
-                            Aplicación Web creada con Java 17, vistas JSP y un servlet Tomcat.<br>
-                            El diseño de las vistas se ha realizado utilizando HTML, CSS3 y Javascript.<br>
+                            Aplicación Web creada con ReactJS, NodeJS, ExpressJS, y Vite como gestor de paquetes.<br>
+                            La UI fue creada con Tailwindcss para los estilos, React-Icons, Javascript.<br>
                             Base de datos gestionada con Mysql. <br>
-                            La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de empleados,
-                            login, registro, ventas, facturas, inventario, precios, entre otras.
+                            La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de
+                            empleados,
+                            login, registro, ventas, inventario, precios, mensajes de sistema, estadísticas.
                         </p>
                     </div>
                     <div class="projects__buttons">
-                        <a href="https://github.com/ExeVizuara/stack-store-frontend" target="_blank" class="projects__link">
+                        <a href="https://github.com/ExeVizuara/stack-store-frontend" target="_blank"
+                            class="projects__link">
                             <i class="ri-github-line"></i>
-                        </a>
-                        <a href="https://main--stack-store-prod.netlify.app/" target="_blank" class="projects__link">
-                            deploy <i class="ri-window-fill"></i>
                         </a>
                     </div>
                 </article>
                 <article class="projects__card">
                     <div class="projects__image">
                         <img src="public/img/proyecto_portfolio.jpg" alt="image" class="projects__img">
-                        <a href="" class="projects__button button">
+                        <a href="https://exevizuara.github.io/WebPortfolio/" class="projects__button button" target="_blank">
                             <i class="ri-arrow-right-up-line"></i>
                         </a>
                     </div>
-                
+
                     <div class="projects__content">
                         <h3 class="projects__subtitle">Web</h3>
                         <h2 class="projects__title">Portfolio Website</h2>
-                
+
                         <p class="projects__description">
                             Sitio Web creado con HTML5, CSS3 y Javascript.<br>
                             Portafolio personal de presentación.<br>
-                            Contiene información sobre mí, CV, proyectos realizados y un formulario de comunicación por correo utilizando la API Emailjs <br>
-                            Si bien es el mismo sitio web en el que se encuentra ahora, desde aquí puede acceder a links de los repositorios donde se encuentran subidos los proyectos.
+                            Contiene información sobre mí, CV, proyectos realizados y un formulario de comunicación por
+                            correo utilizando la API Emailjs <br>
+                            Si bien es el mismo sitio web en el que se encuentra ahora, desde aquí puede acceder al repositorio
+                            donde se encuentra subido el proyecto.
                         </p>
                     </div>
                     <div class="projects__buttons">
                         <a href="https://github.com/ExeVizuara/WebPortfolio.git" target="_blank" class="projects__link">
                             <i class="ri-github-line"></i>
                         </a>
-                        <a href="" target="_blank" class="projects__link">
+                        <!-- <a href="" target="_blank" class="projects__link">
                             <i class="ri-dribbble-line"></i>
+                        </a> -->
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="public/img/proyecto_recibos.jpg" alt="image" class="projects__img">
+                        <a href="https://recibos-de-sueldo-prod.netlify.app" class="projects__button button" target="_blank">
+                            <i class="ri-arrow-right-up-line"></i>
                         </a>
+                    </div>
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Web Application</h3>
+                        <h2 class="projects__title">Recibo Digital</h2>
+
+                        <p class="projects__description">
+                            Aplicación Web creada con Java 8, vistas JSP y un servlet Tomcat.<br>
+                            El diseño de las vistas se ha realizado utilizando HTML, CSS3 y Javascript.<br>
+                            Base de datos gestionada con Mysql. <br>
+                            La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de
+                            empleados,
+                            así como la visualización y descarga de recibos de sueldo en formato digital.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/ExeVizuara/recibos-de-sueldo" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <!-- <a href="" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>
+                        </a> -->
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="public/img/proyecto_oradores.jpg" alt="image" class="projects__img">
+                        <a href="https://conferencia-prod.netlify.app" class="projects__button button" target="_blank">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Web Application</h3>
+                        <h2 class="projects__title">Conferencia oradores</h2>
+
+                        <p class="projects__description">
+                            Aplicación Web creada con Java 17, vistas JSP y un servlet Tomcat.<br>
+                            El diseño de las vistas se ha realizado utilizando HTML, CSS3, Bootstrap y Javascript.<br>
+                            Base de datos gestionada con Mysql. <br>
+                            La aplicación permite básicamente el registro de oradores, la gestión de conferencias,
+                            ver lista de oradores y la reserva de tickets, etc.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/ExeVizuara/ProyectoFinalCodoaCodo" target="_blank" class="projects__link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                        <!-- <a href="" target="_blank" class="projects__link">
+                            <i class="ri-dribbble-line"></i>
+                        </a> -->
                     </div>
                 </article>
             </div>
@@ -333,8 +343,9 @@
             </span>
         </div>
     </footer>
-    <script src="js/scrollreveal.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="public/js/scrollreveal.min.js"></script>
+    <script src="public/js/scripts.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </body>
+
 </html>

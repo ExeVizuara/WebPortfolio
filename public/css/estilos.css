@@ -334,7 +334,7 @@ img{
 
 .home__line{
     right: -1rem;
-    bottom: -5rem;
+    bottom: -5.5rem;
 }
 
 .home__perfil .geometric-box{
@@ -1127,6 +1127,7 @@ body.dark-theme{
     }
     .about__description{
         padding-top: 1rem;
+        font-size: var(--fuente-mediana);
     }
     .about__iconos{
         /* position: relative; */
@@ -1174,6 +1175,7 @@ body.dark-theme{
     }
     .about__shadow{
         width: 400px;
+        height: 800px;
     }
     .projects__container{
         justify-content: center;
@@ -1324,15 +1326,14 @@ body.dark-theme{
         width: 80px;
     }
     .home__arroww{
-        display: none;
-        top: 0rem;
-        right: -6rem;
+        bottom: 7rem;
+        left: -35rem;
         width: 80px;
     }
     .home__line{
         left: -10rem;
         bottom: 7rem;
-        width: 80px;
+        width: 100px;
         rotate: 20deg;
     }
     .home__social{
@@ -1378,8 +1379,8 @@ body.dark-theme{
         color: var(--color-blanco);
     }
     .about__buttons{
-        right: 18rem;
-        top: 35rem;
+        left: -10rem;
+        bottom: 0rem;
     }
     .about__box{
         position: absolute;
@@ -1636,15 +1637,14 @@ body.dark-theme{
         width: 80px;
     }
     .home__arroww{
-        left: 5%;
-        bottom: -5.2rem;
-        width: 80px;
-        rotate: 40deg;
+        left: -26rem;
+        bottom: 5rem;
+        width: 100px;
     }
     .home__line{
         left: -12rem;
         bottom: 7rem;
-        width: 80px;
+        width: 180px;
         rotate: 20deg;
     }
     .home__social{

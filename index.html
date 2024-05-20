@@ -120,18 +120,18 @@
                         poder incursionar profesionalmente en esta área. Realizo proyectos desarrollando aplicaciones
                         web y Apis buscando soluciones para usuarios de distintos rubros y usos "típicos", con
                         tecnologías como Node.js, React.js, Tailwindcss, Javascript para la interfaz del usuario, y del
-                        lado del Backend, Node.js, Express, Javasctipt, Vite como empaquetador y Mysql como gestor de
-                        base de datos.
+                        lado del servidor Backend, Node.js, Express.js, Javasctipt, Vite como gestor de paquetes, y bases de datos
+                        relacionales (Mysql, PostgreSQL) o no relacionales (MongoDB, Graphql).
                         Para el despliegue suelo utilizar Netlify para el Frontend, y Railway para el Backend para
-                        pruebas o desarrollo. En otros entornos mas estructurados utilizo AWS para alojar toda la
+                        pruebas o desarrollo. En otros entornos de producción, utilizo AWS en la nube para alojar toda la
                         arquitectura de las aplicaciones, en servicios como S3, EC2, bases de datos RDS, o en ocasiones
-                        Elastic Beanstalk.
+                        Amplify Studio para aplicaciones pequeñas.
                         Me considero una persona muy capaz, responsable, y con habilidades sólidas adquiridas en mis
-                        experiencias de trabajos las cuales fueron todas en equipo. Adaptabilidad, Compañerismo,
-                        Soluciones en equipo, anticiparse a posibles fallas, etc. <br><br>
+                        experiencias de trabajos las cuales fueron todas en equipo. Metodologías ágiles, adaptabilidad, compañerismo,
+                        soluciones en equipo, etc. <br><br>
 
-                        <span>Mis Skills:</span> ReactJS, NodeJS, JavaScript,
-                        Tailwindcss, Git & GitHub, MySQL.
+                        <span>Mis Skills:</span> JavaScript, ReactJS, NodeJS, Java, 
+                        CSS, Tailwindcss, Git & GitHub, MySQL, Graphql
                     </p>
                     <br><br>
 
@@ -170,9 +170,9 @@
                         <h2 class="projects__title">Stack Store (en desarrollo)</h2>
 
                         <p class="projects__description">
-                            Aplicación Web creada con ReactJS, NodeJS, ExpressJS, y Vite como gestor de paquetes.<br>
-                            La UI fue creada con Tailwindcss para los estilos, React-Icons, Javascript.<br>
-                            Base de datos gestionada con Mysql. <br>
+                            Aplicación Web creada con ReactJS, NodeJS y Vite como gestor de paquetes.<br>
+                            La UI fue creada con Javascript, Tailwindcss para los estilos, React-Icons<br>
+                            Base de datos gestionada con la API Rest de Graphql y alojada en Amplify Studio de AWS.<br>
                             La funcionalidad principal incluye un sistema de inicio de sesión y registro, gestión de
                             empleados,
                             login, registro, ventas, inventario, precios, mensajes de sistema, estadísticas.
@@ -180,6 +180,35 @@
                     </div>
                     <div class="projects__buttons">
                         <a href="https://github.com/ExeVizuara/stack-store-frontend" target="_blank"
+                            class="projects__link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="public/img/proyecto_ordering-system.png" alt="image" class="projects__img">
+                        <a href="https://ordering-system-prueba.netlify.app" class="projects__button button" target="_blank">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects__content">
+                        <h3 class="projects__subtitle">Web Application</h3>
+                        <h2 class="projects__title">Ordering-System</h2>
+
+                        <p class="projects__description">
+                            Aplicación Web creada solo con Html y Javascript vanilla.<br>
+                            Fue realizada para prueba técnica como demostración de habilidades en Javascript puro,
+                            sin librerías ni freamworks.<br>
+                            Es solo el frontend de una aplicación de para poder recibir pedidos como administrador,
+                            o enviar pedidos como usuario. Los registros de las cuentas de usuarios son datos "falsos",
+                            cargador previamente en el LocalStorage del navegador al ingresar a la web.
+                            De la misma forma se almacenan los pedidos que van ingresando, al no contar con servidor backend.
+                        </p>
+                    </div>
+                    <div class="projects__buttons">
+                        <a href="https://github.com/ExeVizuara/ordering-system" target="_blank"
                             class="projects__link">
                             <i class="ri-github-line"></i>
                         </a>
@@ -198,7 +227,7 @@
                         <h2 class="projects__title">Portfolio Website</h2>
 
                         <p class="projects__description">
-                            Sitio Web creado con HTML5, CSS3 y Javascript.<br>
+                            Sitio Web creado con HTML5, CSS3 y Javascript. Sin freamworks, ni librerías.<br>
                             Portafolio personal de presentación.<br>
                             Contiene información sobre mí, CV, proyectos realizados y un formulario de comunicación por
                             correo utilizando la API Emailjs <br>
@@ -210,11 +239,8 @@
                         <a href="https://github.com/ExeVizuara/WebPortfolio.git" target="_blank" class="projects__link">
                             <i class="ri-github-line"></i>
                         </a>
-                        <!-- <a href="" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i>
-                        </a> -->
                     </div>
-                </article>
+                </article>  
                 <article class="projects__card">
                     <div class="projects__image">
                         <img src="public/img/proyecto_recibos.jpg" alt="image" class="projects__img">
@@ -239,9 +265,6 @@
                         <a href="https://github.com/ExeVizuara/recibos-de-sueldo" target="_blank" class="projects__link">
                             <i class="ri-github-line"></i>
                         </a>
-                        <!-- <a href="" target="_blank" class="projects__link">
-                            <i class="ri-dribbble-line"></i>
-                        </a> -->
                     </div>
                 </article>
                 <article class="projects__card">
@@ -330,7 +353,7 @@
                     <a href="#info" class="footer__link">Información </a>
                 </li>
                 <li>
-                    <a href="#projectos" class="footer__link">Projectos </a>
+                    <a href="#proyectos" class="footer__link">Proyectos </a>
                 </li>
                 <li>
                     <a href="#contacto" class="footer__link">Contacto </a>
